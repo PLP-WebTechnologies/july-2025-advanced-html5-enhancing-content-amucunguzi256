@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Conference Registration form - Health Data summit 2025</title>
+    </head>
+    <body>
+        <header>
+            <h1>Health Data Summit 2025</h1>
+        </header>
+        <p>Bringing together public health professionals, data scientists, and policy makers.</p>
+        <nav>
+            <a href="About">About</a>|
+            <a href="Schedule">Schedule</a>|
+            <a href="Speakers">Speakers</a>|
+            <a href="Register">Register</a>|
+            <a href="Contact">Contact</a>
+        </nav>
+        <h2>About the Summit</h2>
+        <p>The Health Data Summit is a two-day event exploring how data science transforms healthcare delivery and public health. The event features hands-on workshops, poster sessions, and keynote talks from leading researchers.</p>
+        <h3>What you will get</h3>
+        <ul>
+            <li>Practical workshops on health data pipelines</li>
+            <li>Networking sessions with public health organizations</li>
+            <li>Poster competition with prizes</li>
+        </ul>
+        <h2>Intro Video & Venue</h2>
+        <img src="https://www.pexels.com/photo/thermometers-on-white-surface-3873176/" alt="Venue: Grand Hall, City Convention Centre"><br>
+        <video controls>
+            <source src="src="https://www.youtube.com/watch?v=FBiEhvhgH68" type="video/mp4">
+            Video not supported
+        </video>
+        <h2>Event Schedule</h2>
+        <p><i>Day 1 to Day 5</i></p>
+        <table border="1">
+            <tr>
+                <th >Time</th>
+                <th>Session</th>
+                <th>Room</th>
+            </tr>
+            <tr>
+                <td>09:00 - 09:30</td>
+                <td>Registration & Coffee</td>
+                <td>Foyer</td>
+            </tr>
+            <tr>
+                <td>09:300 - 10:30</td>
+                <td>Data Driven Public Health</td>
+                <td>Main Hall</td>
+            </tr>
+            <tr>
+                <td>11:00 - 12:30</td>
+                <td>Data Visualizatio</td>
+                <td>Room A</td>
+            </tr>
+            <tr>
+                <td>02:00 - 04:30</td>
+                <td>Panel: Ethics and Privacy</td>
+                <td>Main Hall</td>
+            </tr>
+        </table>
+
+        <h2>Featured Speakers</h2><br>
+        <ol>
+           <li>Prof. Ada N. — Epidemiology & Data Integration</li>
+           <li>Dr. Ben T. — Machine Learning in Healthcare</li>
+           <li>Ms. Carla R. — Public Health Policy & Data </li>
+        </ol> <br>
+        <h2>Register for the Summit</h2>
+        <p>Please complete the form below. Fields marked with * are required.</p>
+        <fieldset>
+            <legend><b>Attendee Details</b></legend><br>
+            <form>
+                
+                <label for="Name">Full Name*:</label><br>
+                <input type="text" id="Name" name="Full Name"
+                 placeholder="Jane Example" required>
+            </form><br><br/>
+            <form>
+                <label for="Email Address">Email Address*:</label><br>
+                <input type="text" id="Email Address" name="Email Address"
+                 placeholder="example@example.com" required>
+            </form><br><br/>
+            <form>
+                <label for="Phone NUmber">Phone Number*:</label><br>
+                <input type="text" id="Phone Number" name="Phone Number"
+                 placeholder="+255 70 344 567">
+            </form><br><br/>
+            <form>
+                <label for="Role">Role:</label><br>
+                <input type="text" id="Role" name="Role"
+                 placeholder="e.g Software Developer">
+            </form>
+        </fieldset><br><br/>
+        <fieldset>
+            <legend><b>Ticket & Sessions</b></legend><br>
+            <forms>
+                <label for="type">Ticket type</label>
+                <select id="ticket" name="ticket" required>
+                    <option value="">Choose ticket..</option>
+                    <option value="Standard">Standard - $100</option>
+                    <option value="Student">Student - $50</option>
+                    <option value="Speaker">Speaker - $100</option>
+                </select>
+            </forms><br><br/>
+
+            <forms>
+                <label for="type">Choose a workshop (optional)</label><br>
+                <select id="workshop" name="workshop">
+                    <option value="">--None--</option>
+                    <option value="AI">Artificial Intelligence</option>
+                    <option value="ML">Intro to ML for Health Data</option>
+                    <option value="Viz">Data Visualization</option>
+                </select>
+            </forms><br><br/>
+
+            <forms>
+                <label for="date">Arrival date</label><br>
+                <input type="date" required><br><br/>
+            </forms>
+            <forms>
+                <label for="guests">Number of guests (0-4)</label><br>
+                <input type="number" min="1" max="4">
+            </forms>
+
+        </fieldset>
+        <fieldset>
+            <legend><b>Short Bio and Confirmation</b></legend><br>
+            <forms>
+                <label for="Bio">Tell us about work (max 300 characters)</label><br>
+                <textarea id="Bio" rows="5" cols="50" placeholder="I am a public health specialist working with.." maxlength="300"></textarea>
+            </forms><br><br/>
+            <label>
+                <input type="checkbox" id="agree" name="agree" required>
+                I confirm that the information provided is accurate. *
+                <br>
+                <button type="submit">Submit Registration</button>
+                <button type="reset">Clear Form</button>
+            </label>
+        </fieldset><br><br/>
+        <address>
+        Organiser: Health Data Group<br>
+        Email: <a href="mailto:info@healthdatasummit.org">info@healthdatasummit.org</a><br>
+        Phone: +255 7000 0000
+      </address>
+
+      <footer>
+        <p>@ 2025 Health Data Summit · <a href="#top">Back to top</a></p>
+      </footer>
+    </body>
+</html>
